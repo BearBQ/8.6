@@ -36,20 +36,20 @@ func main() {
 	}
 
 	db.AutoMigrate(&Users{})
-	db.Create(&Users{
-		Name:  "Admin",
-		Email: "admin@test.com",
-		Age:   333,
-	})
-	db.Create(&Users{
-		Name:  "Egor",
-		Email: "egor@test.com",
-		Age:   333,
-	})
-	db.Create(&Users{
-		Name:  "Vasya",
-		Email: "vasya@test.com",
-		Age:   333,
-	})
+	// db.Create(&Users{
+	// 	Name:  "Admin",
+	// 	Email: "admin@test.com",
+	// 	Age:   333,
+	// })
+	// db.Create(&Users{
+	// 	Name:  "Egor",
+	// 	Email: "egor@test.com",
+	// 	Age:   333,
+	// })
+	// db.Create(&Users{
+	// 	Name:  "Vasya",
+	// 	Email: "vasya@test.com",
+	// 	Age:   333,
+	// })
 
 }
