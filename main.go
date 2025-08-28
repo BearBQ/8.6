@@ -11,9 +11,9 @@ import (
 
 type Users struct {
 	gorm.Model
-	Name  string
-	Email string `gorm:"unique"`
-	Age   uint
+	Name  string `json: "name"`
+	Email string `gorm:"unique" json:email`
+	Age   uint   `json: "email"`
 }
 
 func main() {
